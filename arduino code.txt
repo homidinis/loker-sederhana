@@ -2,9 +2,11 @@
 #include <Uri.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
+
 const char* ssid = "wifi kaum brahma";
 const char* password = "donotuse";
-String serverName = "https://192.168.43.114/lamfu/api_server.php";
+
+String serverName = "https://192.168.43.114/lock/api_server.php"; 
 unsigned long lastTime = 0;
 unsigned long timerDelay = 1000;
 

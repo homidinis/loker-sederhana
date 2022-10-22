@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `t_lampu`
 --
 
-CREATE TABLE `t_lampu` (
+CREATE TABLE `t_lock` (
   `id` int(11) NOT NULL,
   `status` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -35,7 +35,7 @@ CREATE TABLE `t_lampu` (
 -- Dumping data for table `t_lampu`
 --
 
-INSERT INTO `t_lampu` (`id`, `status`) VALUES
+INSERT INTO `t_lock` (`id`, `status`) VALUES
 (0, 0);
 
 --
@@ -45,7 +45,7 @@ INSERT INTO `t_lampu` (`id`, `status`) VALUES
 --
 -- Indexes for table `t_lampu`
 --
-ALTER TABLE `t_lampu`
+ALTER TABLE `t_lock`
   ADD PRIMARY KEY (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
